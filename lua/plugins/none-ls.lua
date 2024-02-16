@@ -9,7 +9,11 @@ return {
 				null_ls.builtins.diagnostics.erb_lint,
 				null_ls.builtins.diagnostics.eslint_d,
 				null_ls.builtins.diagnostics.rubocop,
-				null_ls.builtins.formatting.rubocop,
+        null_ls.builtins.diagnostics.pycodestyle,
+        null_ls.builtins.formatting.autopep8,
+        null_ls.builtins.formatting.isort,
+        null_ls.builtins.diagnostics.textlint,
+        null_ls.builtins.formatting.rubocop,
 			},
 		})
 
